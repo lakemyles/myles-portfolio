@@ -1,0 +1,1 @@
+This is a small project I created as a personal portfolio. The majority of the information currently on it is satire or a placeholder for future information.

@@ -1,0 +1,228 @@
+body{ 
+    margin:0px 0px; 
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.2px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 { 
+    font-size: 2.1rem;
+  }
+  
+  h3 {
+    font-size: 1.6rem;
+  }
+  
+  .yellow {
+    color: #FED766;
+  }
+  
+  .teal {
+    color: #25e7ea;
+  }
+  
+  .red {
+    color: #ea2424;
+  }
+  
+  .blue {
+    color: #0d15e8;
+  }
+  
+  .btn-primary {
+    background: none;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid #FED766;
+    border-radius: 50px;
+    font-size: 1.1rem;
+  }
+  
+  .btn-alt {
+    background: none;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid #000;
+    border-radius: 50px;
+    font-size: 1.1rem;
+  }
+  
+  /*----------------------- Bootstrap Overrides -----------------------*/
+  .navbar-brand {
+    font-size: 28px;
+    margin-top: 0;
+    margin-left: 11px;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+      color: rgba(255, 255, 255, 1);
+  }
+  
+  .navbar-dark .navbar-toggler {
+      color: rgba(255, 255, 255, 1);
+      border: 2px solid rgba(255, 255, 255, 1);
+      padding: 3px 7px 3px 7px;
+  }
+  
+  .navbar-toggler-icon {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  /*----------------------- END Bootstrap Overrides -----------------------*/
+  
+  /*-----------------------          HERO           -----------------------*/
+  #hero-wrapper{
+    background-color: #252a30;
+  }
+  
+  #hero-wrapper hero a{
+    font-weight: bold;
+  }
+  
+  #hero{
+    background-image:url(https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c24dc5484049d18a5eec532614ad7636&auto=format&fit=crop&w=1051&q=80);
+    background-size:cover;
+    position:relative;
+  }
+  
+  #hero:before{
+    content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.5);
+  }
+  
+  .header{
+    position:relative;
+    top:60%;
+    text-align:center;
+    width:100%;
+    color:#fff;
+    height: 50%;
+    
+    -ms-transform: translate(0,-50%); /* IE 9 */
+         -webkit-transform: translate(0,-50%); /* Safari */
+      transform: translate(0,-50%);  
+  }
+  
+  /*-----------------------        HERO END         -----------------------*/
+  
+  .learn-more {
+    margin-top: 30px;
+    line-height: 1;
+    white-space: nowrap;
+    color: #c1c1c1;
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .learn-more p {
+    padding: 0;
+    margin: 5px;
+  }
+  
+  #content{
+    text-align:center;
+    /*width:80%;*/
+    margin:0px auto;
+  }
+  
+  #content h2{
+    margin:0px 0px 10px 0px;
+  }
+  
+  .hype{
+    margin:0px 0px 30px 0px;
+    font-size: 1.2rem;
+  }
+  
+  #content h3 {
+    margin: 15px auto;
+  }
+  
+  #about, #portfolio, #contact {
+    padding: 90px 0 60px 0;
+  }
+  
+  #about .fa {
+    font-size: 52px;
+    margin: 0 auto;
+  }
+  
+  .skills p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 0.75rem;
+  }
+  
+  #portfolio {
+    background: #E8E9EA;
+  }
+  
+  .project-image {
+    position: relative;
+    width: 90%;
+    border-radius: 10px;
+  }
+  
+  .divider {
+    border-bottom: 1px solid #a9a9a9;
+    padding-bottom: 70px;
+  }
+  
+  .project {
+    margin-top: 50px;
+  }
+  
+  #contact {
+    color: #000;
+    background: #FED766;
+  }
+  
+  #footer{
+    padding:30px 0px;
+    text-align:center;
+    background: #252a30;
+    color: #a9a9a9;
+  }
+  
+  #footer .fa-bomb {
+    font-size: 34px;
+  }
+  
+  #footer .social-media a{
+    display: inline-block;
+      color: rgba(255,255,255,0.6);
+      text-decoration: none;
+      margin: 0 4px;
+      height: 36px;
+      width: 36px;
+      font-size: 1.0rem;
+      line-height: 2.3;
+      background-color: rgba(0,0,0,0.1);
+      border-radius: 50px;
+      -webkit-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+  }
+  
+  div.social-media {
+    text-align: center;
+  }
